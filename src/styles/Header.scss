@@ -1,0 +1,29 @@
+.gradient {
+  background: linear-gradient(to right, skyblue, lime, tomato, blue, magenta);
+  color: white;
+  text-shadow: 0 2px 1px #111;
+  h1 {
+    transition: transform 111ms, outline 222ms;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.05) rotate(1deg);
+      outline: solid .5rem purple;
+    }
+  }
+}
+
+.wide100 {
+  width: 100%;
+  padding: .5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  * {
+    margin-right: 2rem;
+  }
+}
+
+.headerItem {
+  display: flex;
+  flex-direction: row;
+}
